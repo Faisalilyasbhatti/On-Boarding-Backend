@@ -1,0 +1,114 @@
+<html lang="en">
+   <head>
+    <!-- <link rel="stylesheet" href="email.css"> -->
+      <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+      <style  type="text/css" nonce="4KKMPYIocVW2PqzcbFkiGQ">
+         body,td,div,p,a,input {font-family: arial, sans-serif;}
+         body, td {font-size:13px} a:link, a:active {color:#1155CC; text-decoration:none} a:hover {text-decoration:underline; cursor: pointer} a:visited{color:##6611CC} img{border:0px} pre { white-space: pre; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; white-space: pre-wrap; word-wrap: break-word; max-width: 800px; overflow: auto;} .logo { left: -7px; position: relative; }
+         .image {
+    
+    display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+table footer {
+
+    text-align: center;
+	color :aliceblue; 
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 15px; 
+    /* border-radius: 10px; */
+    
+}
+
+.main-area{
+
+    width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.text-size {
+
+    text-align: center;
+    font-family: "Times New Roman", Times, serif; 
+	font-size: 12px;
+}
+
+
+
+     
+     </style>
+   </head>
+   <body>
+      <div class="bodycontainer">
+         <div class="maincontent">
+            <table width=100% cellpadding=0 cellspacing=0 border=0 class="message">
+               <tr>
+                  <td><font size=-1></font></td>
+                  <td align=right>
+               <tr>
+                  <td colspan=2 style="padding-bottom: 4px;"><font size=-1 class="recipient"></font>
+               <tr>
+                  <td colspan=2>
+                     <table width=100% cellpadding=12 cellspacing=0 border=0>
+                        <tr>
+                           <td>
+                              <div style="overflow: hidden;">
+                                 <font size=-1>
+                                    <u></u>
+                                    <div>
+                                       <table width="600" border="0" align="left" cellpadding="0" cellspacing="0" style="font-family:&#39;Montserrat&#39;,sans-serif;font-size:13px!important;line-height:22px;color:#101820">
+                                          <tbody>
+                                             <tr>
+                                                <td height="10" scope="col" style="background:white;padding: 5px;px"> <img src="http://54.216.113.184:8080/DAO_Logo_Color.jpg" alt="Dao Logo" class="image" > </td>
+                                             </tr>
+                                             <tr>
+                                                <td scope="row" style="padding:10px 20px;font-family:&#39;Montserrat&#39;,sans-serif;font-size:13px;margin-top:20px;display:block">
+                                                    <p> Hi ${fullName} </p>
+                                                    <p><b>Congratulations  you have successfully completed onboarding.</b> </p>
+                                                    <p>Please wait our admin will get in touch with you soon. </p>
+                                                   <!-- <p> Hi ${LastName},${FirstName} </p>
+                                                   <p><b>Congratulations - your DAO account registration has been approved.</b> </p>
+												   <p>You are now a DAO member, which entitles you to a range of additional benefits and services. </p>
+                                                   <p> URL: http://54.216.113.184:8080/rvart/admin/#/login </p>
+                                               	   <p> Username: ${toEmail}, </p>
+                                                   <p> Password:  ${password} </p> -->
+
+												   <p>Enjoy your DAO experience!</p>
+                                                   <p><b>Kind regards,</b></p>
+                                                   <p><b> The DAO team </b> </p>
+                                                <!-- </td> -->
+                                             </tr>
+                                             <tr></tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+									
+                                 </font>
+                              </div>
+							  <div>
+                                <table width="600" border="0" align="left" cellpadding="0" cellspacing="0" style="font-family:&#39;Montserrat&#39;,sans-serif;font-size:13px!important;line-height:22px;color:#101820">
+	                                    <tr>
+                                            <td>
+                                        <footer   scope="col" style="background:#275396;padding:1px">
+                                            <div class="main-area">
+                                                    <p>DAO provides one-step faster and cheaper global payment remittance
+                                                        and treasury management for businesses and individuals</p>
+                                                    <P></p>   
+                                                    <p class="text-size"> &copy; 2021 by DAO Hong Kong Limited. </p>
+                                            </div>
+                                        </footer>
+                                        </td>
+                                        </tr>
+                                </table>
+                                </div>
+                     </table>
+            </table>
+         </div>
+      </div>
+	  
+   </body>
